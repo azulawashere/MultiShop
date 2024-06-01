@@ -2,7 +2,7 @@
 {
     public interface IDatabaseSettings
     {
-        public string CategoryCollection { get; set; }
+        public string CategoryCollectionName { get; set; }
         public string ProductCollectionName { get; set; }
         public string ProductDetailCollectionName { get; set; }
         public string ProductImageCollectionName { get; set; }
